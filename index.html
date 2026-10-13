@@ -1,0 +1,234 @@
+<!doctype html>
+<html lang="da">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>BreGo – Bærbar kapselkaffemaskine</title>
+  <meta name="description" content="BreGo: genopladelig, bærbar kapselkaffemaskine med indbygget opvarmning. Ægte espresso – hvor som helst.">
+  <link rel="icon" href="assets/product.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="announce">Fri fragt over 499 kr · 30 dages returret · 2 års garanti</div>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="#" class="logo">Bre<span>Go</span></a>
+      <nav class="nav">
+        <a href="#produkt">Produkt</a>
+        <a href="#saadan">Sådan virker den</a>
+        <a href="#specs">Specifikationer</a>
+        <a href="#faq">FAQ</a>
+      </nav>
+      <button class="cart-btn" id="cartOpen" aria-label="Åbn kurv">
+        <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M6 7h12l-1 13H7zM9 7a3 3 0 0 1 6 0"/></svg>
+        <span class="cart-count" id="cartCount">0</span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-inner">
+        <div>
+          <p class="eyebrow">Ny · Bærbar espresso</p>
+          <h1>Frisk espresso.<br>Hvor som helst.</h1>
+          <p class="lead">BreGo varmer selv vandet op og brygger din kapsel eller malede kaffe med højt tryk – i bilen, på kontoret, i teltet eller på farten. Bare tryk på én knap.</p>
+          <div class="hero-cta">
+            <a href="#produkt" class="btn btn-primary">Køb nu – 599 kr</a>
+            <a href="#saadan" class="btn btn-ghost">Se hvordan</a>
+          </div>
+          <ul class="hero-points">
+            <li>🔋 Genopladelig via USB‑C</li>
+            <li>🔥 Indbygget vandopvarmning</li>
+            <li>☕ Kapsler & malet kaffe</li>
+          </ul>
+        </div>
+        <div class="hero-img">
+          <img src="assets/product.svg" alt="BreGo bærbar kaffemaskine" width="400" height="520">
+        </div>
+      </div>
+    </section>
+
+    <section id="produkt" class="product">
+      <div class="container product-inner">
+        <div class="gallery" id="gallery">
+          <img src="assets/product.svg" alt="BreGo i farven" id="productImg">
+        </div>
+        <div class="buy">
+          <h2>BreGo Portable Espresso</h2>
+          <p class="price"><span id="price">599 kr</span> <s id="compare">799 kr</s></p>
+          <p class="muted">Inkl. moms. Sendes inden for 1–2 hverdage.</p>
+
+          <fieldset class="opt">
+            <legend>Farve: <strong id="colorName">Sort</strong></legend>
+            <div class="swatches" id="swatches"></div>
+          </fieldset>
+
+          <fieldset class="opt">
+            <legend>Pakke</legend>
+            <div class="bundles" id="bundles"></div>
+          </fieldset>
+
+          <fieldset class="opt">
+            <legend>Tilbehør</legend>
+            <div class="addons" id="addons"></div>
+          </fieldset>
+
+          <div class="qty-row">
+            <div class="qty">
+              <button type="button" id="qtyMinus" aria-label="Færre">−</button>
+              <input id="qty" type="number" min="1" max="10" value="1" aria-label="Antal">
+              <button type="button" id="qtyPlus" aria-label="Flere">+</button>
+            </div>
+            <button class="btn btn-primary grow" id="addToCart">Læg i kurv</button>
+          </div>
+
+          <ul class="trust">
+            <li>✔ 30 dages fuld returret</li>
+            <li>✔ 2 års reklamationsret</li>
+            <li>✔ Sikker betaling</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="saadan" class="how">
+      <div class="container">
+        <h2 class="center">Sådan virker den</h2>
+        <div class="steps">
+          <div class="step"><span>1</span><h3>Fyld vand</h3><p>Hæld vand i beholderen – koldt eller varmt.</p></div>
+          <div class="step"><span>2</span><h3>Indsæt kapsel</h3><p>Brug en kompatibel kapsel eller malet kaffe med adapteren.</p></div>
+          <div class="step"><span>3</span><h3>Tryk på knappen</h3><p>BreGo varmer vandet og brygger din espresso direkte i koppen.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="features">
+      <div class="container feature-grid">
+        <div class="feature"><h3>Indbygget varmelegeme</h3><p>Ingen kedel nødvendig – maskinen opvarmer selv vandet, så du får varm kaffe overalt.</p></div>
+        <div class="feature"><h3>Elektrisk pumpe</h3><p>Ingen manuel pumpning. Den elektriske pumpe giver et jævnt højt tryk og flot crema.</p></div>
+        <div class="feature"><h3>Genopladelig</h3><p>Oplad via USB‑C fra bil, powerbank eller væglader – perfekt til tur og rejse.</p></div>
+        <div class="feature"><h3>Kompakt & let</h3><p>Fylder ikke mere end en termokop og passer i taske, handskerum og kopholder.</p></div>
+        <div class="feature"><h3>Kop medfølger</h3><p>Låget fungerer som kop, så du altid har noget at drikke af.</p></div>
+        <div class="feature"><h3>Nem rengøring</h3><p>Skyl kapselkammer og kop under vandhanen – færdig.</p></div>
+      </div>
+    </section>
+
+    <section id="specs" class="specs">
+      <div class="container">
+        <h2 class="center">Specifikationer</h2>
+        <table>
+          <tbody>
+            <tr><th>Type</th><td>Bærbar elektrisk kapsel-/espressomaskine</td></tr>
+            <tr><th>Kompatibilitet</th><td>Nespresso Original‑kapsler · malet kaffe (med adapter)</td></tr>
+            <tr><th>Opvarmning</th><td>Indbygget varmelegeme</td></tr>
+            <tr><th>Opladning</th><td>USB‑C, genopladeligt batteri · 12V biladapter (tilbehør)</td></tr>
+            <tr><th>Vandbeholder</th><td>Ca. 80 ml</td></tr>
+            <tr><th>Materialer</th><td>Fødevaregodkendt plast og rustfrit stål</td></tr>
+            <tr><th>I æsken</th><td>BreGo maskine, kop/låg, USB‑C kabel, brugervejledning</td></tr>
+          </tbody>
+        </table>
+        <p class="muted center small">Specifikationer kan variere en smule afhængigt af produktionsparti.</p>
+      </div>
+    </section>
+
+    <section id="faq" class="faq">
+      <div class="container narrow">
+        <h2 class="center">Ofte stillede spørgsmål</h2>
+        <details><summary>Hvilke kapsler passer i BreGo?</summary><p>BreGo passer til kapsler i Nespresso Original‑formatet. Med adapteren til malet kaffe kan du også bruge din egen kaffe.</p></details>
+        <details><summary>Skal jeg bruge varmt vand?</summary><p>Nej. BreGo opvarmer selv vandet. Bruger du allerede varmt vand, går det hurtigere og sparer batteri.</p></details>
+        <details><summary>Hvor lang tid tager opladning?</summary><p>En fuld opladning tager typisk et par timer via USB‑C. Maskinen kan også oplades fra en powerbank eller i bilen.</p></details>
+        <details><summary>Hvad hvis jeg fortryder?</summary><p>Du har 30 dages fuld returret. Kontakt os, så sender vi en returlabel.</p></details>
+        <details><summary>Hvor hurtigt får jeg min ordre?</summary><p>Vi sender inden for 1–2 hverdage. Fri fragt ved ordrer over 499 kr.</p></details>
+      </div>
+    </section>
+
+    <section class="newsletter">
+      <div class="container narrow center">
+        <h2>Få 10% på din første ordre</h2>
+        <p>Tilmeld dig nyhedsbrevet og få tilbud og nyheder først.</p>
+        <form id="newsletter" class="news-form">
+          <input type="email" required placeholder="Din e-mail" aria-label="E-mail">
+          <button class="btn btn-primary">Tilmeld</button>
+        </form>
+        <p id="newsMsg" class="small" role="status"></p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>
+        <a href="#" class="logo">Bre<span>Go</span></a>
+        <p class="small">Espresso på farten.</p>
+      </div>
+      <div>
+        <h4>Kundeservice</h4>
+        <p class="small">kontakt@brego.dk<br>Man–fre 9–16</p>
+      </div>
+      <div>
+        <h4>Info</h4>
+        <p class="small">Handelsbetingelser<br>Returret & fragt<br>Privatlivspolitik</p>
+      </div>
+    </div>
+    <p class="center small copyright">© <span id="year"></span> BreGo</p>
+  </footer>
+
+  <!-- Kurv -->
+  <div class="overlay" id="overlay" hidden></div>
+  <aside class="drawer" id="drawer" aria-label="Kurv" aria-hidden="true">
+    <div class="drawer-head">
+      <h3>Din kurv</h3>
+      <button class="icon-btn" id="cartClose" aria-label="Luk">✕</button>
+    </div>
+    <div class="ship-bar"><div id="shipText" class="small"></div><div class="bar"><span id="shipFill"></span></div></div>
+    <ul class="cart-items" id="cartItems"></ul>
+    <div class="drawer-foot">
+      <div class="row"><span>Subtotal</span><strong id="subtotal">0 kr</strong></div>
+      <div class="row"><span>Fragt</span><span id="shipping">–</span></div>
+      <div class="row total"><span>I alt</span><strong id="total">0 kr</strong></div>
+      <button class="btn btn-primary full" id="checkoutBtn">Gå til kassen</button>
+    </div>
+  </aside>
+
+  <!-- Kasse -->
+  <dialog id="checkout" class="checkout">
+    <form id="checkoutForm" novalidate>
+      <div class="drawer-head">
+        <h3>Kassen</h3>
+        <button type="button" class="icon-btn" id="checkoutClose" aria-label="Luk">✕</button>
+      </div>
+      <div class="grid2">
+        <label>Fornavn<input name="first" required autocomplete="given-name"></label>
+        <label>Efternavn<input name="last" required autocomplete="family-name"></label>
+      </div>
+      <label>E-mail<input name="email" type="email" required autocomplete="email"></label>
+      <label>Adresse<input name="address" required autocomplete="street-address"></label>
+      <div class="grid2">
+        <label>Postnr.<input name="zip" required pattern="\d{4}" inputmode="numeric" autocomplete="postal-code"></label>
+        <label>By<input name="city" required autocomplete="address-level2"></label>
+      </div>
+      <label>Levering
+        <select name="delivery" id="delivery">
+          <option value="pakkeshop">Pakkeshop (49 kr – gratis over 499 kr)</option>
+          <option value="hjem">Levering til døren (+30 kr)</option>
+        </select>
+      </label>
+      <div class="row total"><span>At betale</span><strong id="checkoutTotal">0 kr</strong></div>
+      <p class="error small" id="formError" role="alert"></p>
+      <button class="btn btn-primary full" type="submit">Bekræft ordre</button>
+      <p class="muted small center">Demo-butik: der gennemføres ingen rigtig betaling.</p>
+    </form>
+    <div id="confirm" class="confirm" hidden>
+      <h3>Tak for din ordre! ☕</h3>
+      <p>Ordrenummer <strong id="orderNo"></strong>. Du modtager en bekræftelse på <span id="orderEmail"></span>.</p>
+      <button class="btn btn-primary" id="confirmClose">Fortsæt</button>
+    </div>
+  </dialog>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>

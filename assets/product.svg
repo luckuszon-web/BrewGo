@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 520" role="img" aria-label="BreGo bærbar kapselkaffemaskine">
+  <defs>
+    <linearGradient id="body" x1="0" x2="1">
+      <stop offset="0" stop-color="#1c1a19"/><stop offset=".45" stop-color="#3a3532"/><stop offset="1" stop-color="#141212"/>
+    </linearGradient>
+    <linearGradient id="cap" x1="0" x2="1">
+      <stop offset="0" stop-color="#8a5a3b"/><stop offset=".5" stop-color="#c88a5c"/><stop offset="1" stop-color="#6e452c"/>
+    </linearGradient>
+    <linearGradient id="cup" x1="0" x2="1">
+      <stop offset="0" stop-color="#d9d4ce"/><stop offset=".5" stop-color="#fff"/><stop offset="1" stop-color="#c7c1ba"/>
+    </linearGradient>
+  </defs>
+  <ellipse cx="200" cy="492" rx="120" ry="14" fill="#000" opacity=".12"/>
+  <rect x="130" y="60" width="140" height="56" rx="18" fill="url(#cap)"/>
+  <rect x="122" y="108" width="156" height="12" rx="4" fill="#5b3a26"/>
+  <rect x="126" y="120" width="148" height="270" rx="10" fill="url(#body)"/>
+  <circle cx="200" cy="200" r="20" fill="#2a2725" stroke="#c88a5c" stroke-width="3"/>
+  <path d="M193 200h14M200 193v14" stroke="#c88a5c" stroke-width="3" stroke-linecap="round" transform="rotate(45 200 200)" opacity="0"/>
+  <path d="M200 188v12" stroke="#c88a5c" stroke-width="3" stroke-linecap="round"/>
+  <path d="M190 194a13 13 0 1 0 20 0" fill="none" stroke="#c88a5c" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="186" cy="240" r="3" fill="#7ed39b"/><circle cx="200" cy="240" r="3" fill="#7ed39b"/><circle cx="214" cy="240" r="3" fill="#7ed39b"/>
+  <text x="200" y="320" text-anchor="middle" font-family="Georgia, serif" font-size="22" fill="#e9dccf" letter-spacing="3">BreGo</text>
+  <path d="M126 390h148l-8 76a10 10 0 0 1-10 9H144a10 10 0 0 1-10-9z" fill="url(#cup)"/>
+  <rect x="126" y="388" width="148" height="8" rx="3" fill="#bdb6ae"/>
+</svg>
