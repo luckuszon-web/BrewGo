@@ -1,5 +1,5 @@
 (() => {
-  const PRODUCT = { id: 'brego', name: 'BreGo Portable Espresso', img: 'assets/product.svg' };
+  const PRODUCT = { id: 'brewgo', name: 'BrewGo Portable Espresso', img: 'assets/product.svg' };
 
   const COLORS = [
     { id: 'sort', name: 'Sort', hex: '#2b2725', bg: '#f2e9df' },
@@ -21,7 +21,7 @@
   const FREE_SHIPPING = 499;
   const SHIPPING = 49;
   const HOME_DELIVERY = 30;
-  const STORAGE_KEY = 'brego-cart';
+  const STORAGE_KEY = 'brewgo-cart';
 
   const $ = (sel) => document.querySelector(sel);
   const kr = (n) => `${n.toLocaleString('da-DK')} kr`;
@@ -63,7 +63,7 @@
     $('#compare').textContent = kr(state.bundle.compare);
     $('#colorName').textContent = state.color.name;
     $('#gallery').style.background = state.color.bg;
-    $('#productImg').alt = `BreGo i farven ${state.color.name.toLowerCase()}`;
+    $('#productImg').alt = `BrewGo i farven ${state.color.name.toLowerCase()}`;
   }
 
   $('#swatches').addEventListener('click', (e) => {

@@ -1,6 +1,6 @@
-# BreGo
+# BrewGo
 
-Webshop for BreGo – en bærbar, genopladelig kapselkaffemaskine med indbygget vandopvarmning.
+Webshop for BrewGo – en bærbar, genopladelig kapselkaffemaskine med indbygget vandopvarmning.
 
 Ren HTML/CSS/JS uden build-step. Åbn `index.html` i en browser, eller host mappen på fx GitHub Pages / Netlify.
 
